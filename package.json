@@ -1,0 +1,33 @@
+{
+  "name": "mean_sample",
+  "version": "1.0.0",
+  "description": "Projeto exemplificando a implementação do MEAN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jucelinux/mean_sample.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Mongodb",
+    "Expressjs",
+    "Angularjs",
+    "Nodejs"
+  ],
+  "author": "Jucelinux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jucelinux/mean_sample/issues"
+  },
+  "homepage": "https://github.com/jucelinux/mean_sample#readme",
+  "dependencies" : {
+    "body-parser"    : "^1.4.3",
+    "express"        : "^4.13.4",
+    "method-override": "^2.1.3",
+    "mongoose"       : "^4.4.12",
+    "morgan"         : "^1.1.1"
+  }
+}
